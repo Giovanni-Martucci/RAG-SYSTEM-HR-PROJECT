@@ -1,5 +1,8 @@
 ## Project Documentation
 
+### Demo 
+https://front-rag.onrender.com/
+
 ### Overview
 This project is about an HR assistant that implements question-answering system, on resume of candidates, uploaded via Streamlit-GUI from user, using a retrieval-augmented generation approach. It leverages a conversational model to provide answers based on the context retrieved from documents. The system is designed to be interacted with through a Streamlit web interface, allowing users to upload documents, ask questions, and receive answers.
 
@@ -69,6 +72,7 @@ Launch Command : `streamlit run app.py`
 ### Future Enhancements
 - **Semantic Chunking**: Experimental feature to improve the relevance of document chunks by using semantic understanding rather than just text splitting.
 - **Enhanced Embeddings**: Explore more advanced embedding techniques for better performance in document retrieval. This could involve using newer models or custom training.
+- **LangGraph**
 
 This documentation provides a comprehensive overview of the project's architecture, components, and usage. For detailed configuration and setup instructions, refer to the accompanying setup guides and code comments.
 
